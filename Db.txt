@@ -1,0 +1,14 @@
+Automobili
+
+numero targa           mediumint            PRIMARY_KEY             NOT_NULL
+
+chilometraggio         mediumint                                    NOT_NULL
+
+Prezzo                 money                                        NOT_NULL
+
+Anno di produzione     Datetime                                     NOT_NULL    
+
+casa automobilistica   varchar(10)                                  NOT_NULL
+
+storico incidenti      text                                         NOT_NULL
+
